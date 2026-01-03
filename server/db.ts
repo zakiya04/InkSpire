@@ -15,7 +15,7 @@ const pool = new Pool({
 });
 
 pool.connect()
-.then(client => {console.log("Got connected to Postgres Table"); client.release()})
+.then(client => {console.log("connected to Postgres"); client.release()})
 .catch(err => console.log("Something went wrong while connecting to the Database", err))
 
 

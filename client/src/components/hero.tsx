@@ -16,7 +16,7 @@ const Hero = () => {
     <h1 className="text-9xl font-extrabold text-emerald-700 mb-6">InkSpire - Let ink spark inspiration</h1>
     <p className="text-gray-600">Capture ideas instantly. Organize thoughts effortlessly.<br/> InkSpire helps you write, refine, and access your notes anywhere.</p>
    </div>
-   <Buttons/>
+   <Buttons primaryText="Sign In" secondaryText="Sign Up"/>
   </div>
 </div>
 
